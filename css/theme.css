@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+body * {
+    font-family: 'Syne de polices', sans-serif;
+ }
+
+
+
+
+ /* HEADER */
+
+ #site-navigation-wrap{
+margin-right: -15px !important;
+ }
+
+ li.menu-item-82 a {
+    color: #ffffff !important; 
+    background-color: #DC9F96 !important;
+    font-weight:bold !important;
+ }
+
+
+ li.menu-item-82:hover a:hover {
+   background-color: #C02E44 !important;
+   color: white !important;
+ }
+
+
+ li.menu-item-83:hover a:hover {
+   font-size: smaller !important;
+   font-weight: bolder !important;
+ }
+ li.menu-item-84:hover a:hover {
+  font-size: smaller !important;
+  font-weight: bolder !important;
+}
+ #site-footer {
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+ }
+ .footer-link {
+   color:black;
+ }
+ .footer-link:hover {
+color: black;
+font-size: smaller !important;
+font-weight: bolder !important;
+ }
