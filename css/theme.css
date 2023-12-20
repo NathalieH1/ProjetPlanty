@@ -247,8 +247,16 @@ div.wp-block-columns:nth-child(3){
     padding-right: 350px !important;
     padding-left: 400px !important;
   }*/
+/*L'EQUIPE*/ 
 
+  .wp-block-columns .wp-image-305{
 
+  
+    width: 100% !important;
+    padding-top: 20px !important;
+    padding-left: 60px !important;
+    padding-right: 20px !important;
+  }
  /* PIED-DE-PAGE */
 
  #site-footer {
