@@ -35,3 +35,22 @@ function oceanwp_child_enqueue_parent_style() {
 }
 
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
+
+function display_button_for_admin($items, $args) {
+
+
+    if ($args->theme_location === 'main_menu') {
+        if ( is_user_logged_in() ) { 
+            $items .= '<a href="http://localhost/Planty/wp-admin/about.php" class="admin-button">Admin</a>';
+
+        }
+        return $items;
+    }
+    if ($args->theme_location==='footer_menu'){
+        return $items;
+    }
+   
+}
+
+
+add_action('wp_nav_menu_items', 'display_button_for_admin', 10, 2);
