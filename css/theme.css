@@ -249,6 +249,23 @@ div.wp-block-columns:nth-child(3){
   }*/
 
 
+/* L'EQUIPE*/
+  .wp-block-columns {
+    display: flex;
+    flex-direction: row!important;
+    justify-content:center!important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    margin-left: 100px;
+    padding-right: 100px !important;
+    margin-right: 20px !important;
+  }
+  div.wp-block-column:nth-child(3) {
+    padding-right: 70px !important;
+  }
+  div.wp-block-column:nth-child(1) {
+    padding-left: 90px !important;
+  } 
  /* PIED-DE-PAGE */
 
  #site-footer {
