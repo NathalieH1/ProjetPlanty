@@ -40,21 +40,14 @@ body * {
 
   /*L'IMAGE MISE EN AVANT*/
   h1.wp-block-heading {
-    font-family:"Syne" !important;
-    font-weight: 800 !important;
     font-size: 38px !important;
   }
 
-  h1.wp-block-heading > strong:nth-child(1) {
-    font-weight: 800;
-  }
   div.has-background:nth-child(1){
-    
     border-radius: 0 0 300% 300% / 0 0 30% 30%;
   }
 
   .is-style-default {
-    
     background-color: #ece2da;
   }
   
@@ -250,7 +243,7 @@ div.wp-block-columns:nth-child(3){
 
 
 /* L'EQUIPE*/
-  .wp-block-columns {
+  /*.wp-block-columns {
     display: flex;
     flex-direction: row!important;
     justify-content:center!important;
@@ -260,12 +253,19 @@ div.wp-block-columns:nth-child(3){
     padding-right: 100px !important;
     margin-right: 20px !important;
   }
-  div.wp-block-column:nth-child(3) {
+  /*div.wp-block-column:nth-child(3) {
     padding-right: 70px !important;
   }
   div.wp-block-column:nth-child(1) {
     padding-left: 90px !important;
   } 
+
+  .wp-image-306 {
+    
+    
+   margin-right:  20px;
+   margin-top: -180px;
+  }*/
  /* PIED-DE-PAGE */
 
  #site-footer {
