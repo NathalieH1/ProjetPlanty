@@ -100,8 +100,13 @@ body * {
     background-color: #C02E44 !important;
     border-radius: 5px;
   }
- 
-
+  .wp-block-button__link {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+  
+    word-break: break-word;
+  }
   /* CE QU'ILS EN PENSENT */
   h2.wp-block-heading:nth-child(8) > strong:nth-child(1) {
   font-weight: 800;
@@ -276,6 +281,14 @@ body * {
    margin-top: -170px;
    margin-bottom: -20px;
   }
+
+  /*DERNIERE PAGE COMMANDER*/
+
+  .wp-block-separator.is-style-wide:not(.size-full) {
+    max-width:1000px;
+  }
+
+
  /* PIED-DE-PAGE */
 
  #site-footer {
