@@ -181,9 +181,7 @@ div.wp-block-columns:nth-child(10) {
 
 /*L'EQUIPE*/ 
 
-  .wp-block-columns .wp-image-305{
-
-  
+  .wp-block-columns .wp-image-305 {
     width: 100% !important;
     padding-top: 20px !important;
     padding-left: 60px !important;
