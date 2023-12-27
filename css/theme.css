@@ -55,13 +55,16 @@ body * {
   }
   div.has-background:nth-child(1){
     border-radius: 0 0 300% 300% / 0 0 30% 30%;
-    border-bottom: solid #e5d8cd 6px;
+    border-bottom: solid #e5d8cd 10px;
+    height: 950px;
   }
 
   .is-style-default {
     background-color: #ece2da;
   }
-  
+  .wp-image-129 {
+    padding-top: 60px;
+  }
   
   /* L'ÉNERGIE DES PLANTES */
   h2.wp-block-heading:nth-child(3) {
@@ -116,8 +119,19 @@ body * {
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
-  
     word-break: break-word;
+  }
+  .wp-image-96 {
+    padding-right: 5px
+  }
+  .wp-image-97 {
+    padding-left: 5px
+  }
+  .wp-image-99 {
+    padding-right: 5px
+  }
+  .wp-image-98 {
+    padding-left: 5px
   }
   /* CE QU'ILS EN PENSENT */
   h2.wp-block-heading:nth-child(8) > strong:nth-child(1) {
