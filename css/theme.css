@@ -34,8 +34,21 @@ body * {
   font-weight: bolder !important;
 }
 
-
-
+#menu-principal > a:nth-child(3) {
+display: flex;
+justify-content: center;
+color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Syne';
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+#menu-principal > a:nth-child(3):hover {
+  font-size: smaller !important;
+  font-weight: bolder !important;
+}
   /* BODY */
 
   /*L'IMAGE MISE EN AVANT*/
@@ -44,6 +57,7 @@ body * {
   }
   div.has-background:nth-child(1){
     border-radius: 0 0 300% 300% / 0 0 30% 30%;
+    border-bottom :solid #e5d8cd 6PX;
   }
 
   .is-style-default {

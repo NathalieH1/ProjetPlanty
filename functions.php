@@ -41,7 +41,15 @@ function display_button_for_admin($items, $args) {
 
     if ($args->theme_location === 'main_menu') {
         if ( is_user_logged_in() ) { 
-            $items .= '<a href="http://localhost/Planty/wp-admin/about.php" class="admin-button">Admin</a>';
+        
+        $menu_items = explode('</li>', $items);
+        $middle_index = ceil(count($menu_items) / 2);
+        // Insérez votre bouton entre les deux parties
+        $new_button = '<a href="http://localhost/Planty/wp-admin/about.php" class="admin-button">Admin</a>';
+        array_splice($menu_items, 2, 0, $new_button);
+
+        // Rejoignez à nouveau les parties pour former le menu complet
+        $items = implode('</li>', $menu_items);	
 
         }
         return $items;
@@ -51,6 +59,13 @@ function display_button_for_admin($items, $args) {
     }
    
 }
-
-
 add_action('wp_nav_menu_items', 'display_button_for_admin', 10, 2);
+/*
+$middle_index = ceil(count($menu_items) / 2);
+        // Insérez votre bouton entre les deux parties
+        $new_button = '<li><a href="URL_DE_VOTRE_BOUTON">Texte du bouton</a></li>';
+        array_splice($menu_items, $middle_index, 0, $new_button);
+
+        // Rejoignez à nouveau les parties pour former le menu complet
+        $items = implode('</li>', $menu_items);
+        */
