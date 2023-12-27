@@ -35,6 +35,7 @@ function oceanwp_child_enqueue_parent_style() {
 }
 
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
+<<<<<<< HEAD
 
 function display_button_for_admin($items, $args) {
 
@@ -69,3 +70,5 @@ $middle_index = ceil(count($menu_items) / 2);
         // Rejoignez à nouveau les parties pour former le menu complet
         $items = implode('</li>', $menu_items);
         */
+=======
+>>>>>>> 2a4fe5471d6448497d4f2edcdccd50a18a40d0fe

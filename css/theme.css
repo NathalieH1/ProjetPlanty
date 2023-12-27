@@ -35,15 +35,13 @@ body * {
 }
 
 #menu-principal > a:nth-child(3) {
-display: flex;
-justify-content: center;
-color: black;
+  display: flex !important;
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Syne';
+  color:#000000;
   padding-top: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #menu-principal > a:nth-child(3):hover {
   font-size: smaller !important;
@@ -57,7 +55,7 @@ color: black;
   }
   div.has-background:nth-child(1){
     border-radius: 0 0 300% 300% / 0 0 30% 30%;
-    border-bottom :solid #e5d8cd 6PX;
+    border-bottom: solid #e5d8cd 6px;
   }
 
   .is-style-default {
