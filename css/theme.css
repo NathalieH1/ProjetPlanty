@@ -53,7 +53,7 @@ body * {
   h1.wp-block-heading {
     font-size: 38px !important;  
   }
-  div.has-background:nth-child(1){
+  div.has-background:nth-child(1).background-image-accueil {
     border-radius: 0 0 300% 300% / 0 0 30% 30%;
     border-bottom: solid #e5d8cd 10px !important;
     height: 950px;
@@ -248,20 +248,20 @@ div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3) {
     margin-left:250px;
   }
   /*Le formulaire "NOUS CONTACTER"*/
-.uagb-forms-textarea-input {
+  .uagb-forms-textarea-input {
 	position:relative;
 	z-index:1;
- }
-.uag-image-450{
+  }
+  .uag-image-450{
 	position:relative;
 	z-index:0;
 	margin-top:-40px;
 	margin-left: 15px;
- }
+  }
   .wp-image-306 {
     margin-top: -170px;
     margin-bottom: -20px;
-   }
+  }
    /*Le bouton d'envoi du formulaire*/
   .uagb-forms-main-submit-button {
     margin-left: 100px;
@@ -273,11 +273,15 @@ div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3) {
     height: 1200px;
     border-radius:0px;
   }
+  .wp-block-group
   .wp-block-separator.is-style-wide:not(.size-full) {
     max-width:1000px;
   }
 
-
+/*Bouton commander dernière page*/
+.uagb-button__wrapper {
+	margin-left: 30px;
+}
  /* PIED-DE-PAGE */
 
  #site-footer {
