@@ -169,8 +169,8 @@ body * {
 div.has-background:nth-child(1).wp-block-image-bis {
   border-radius: 0 0 200% 200% / 0 0 80% 80%;
 }
-.wp-block-image-bis{
-	max-height:415px;
+div.has-background:nth-child(1).wp-block-image-bis {
+	height:415px;
 }
 /*l'image*/
 div.wp-block-uagb-image:nth-child(1) > figure:nth-child(1) {
@@ -249,14 +249,14 @@ div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3) {
   }
   /*Le formulaire "NOUS CONTACTER"*/
   .uagb-forms-textarea-input {
-	position:relative;
-	z-index:1;
+	  position:relative;
+	  z-index:1;
   }
   .uag-image-450{
-	position:relative;
-	z-index:0;
-	margin-top:-40px;
-	margin-left: 15px;
+	  position:relative;
+	  z-index:0;
+	  margin-top:-40px;
+	  margin-left: 15px;
   }
   .wp-image-306 {
     margin-top: -170px;
@@ -264,37 +264,79 @@ div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3) {
   }
    /*Le bouton d'envoi du formulaire*/
   .uagb-forms-main-submit-button {
-    margin-left: 100px;
+    margin-left: 130px;
     word-break:keep-all;
   }
  
   /*DERNIERE PAGE COMMANDER*/
   div.has-background:nth-child(1).background-green {
-    height: 1200px;
-    border-radius:0px;
+    height: 1300px;
+	  border-radius:0px;
+	  border-bottom: none;
   }
   .wp-block-group
   .wp-block-separator.is-style-wide:not(.size-full) {
-    max-width:1000px;
+    max-width:860px;
+    height: 1.2px;
   }
-
-/*Bouton commander dernière page*/
-.uagb-button__wrapper {
+  h3.wp-block-heading:nth-child(3) {
+    margin-left:290px;
+  }
+  div.wp-block-columns:nth-child(4) {
+    margin-left: 290px;
+    max-width: 60%;
+  }
+  div.wp-block-columns:nth-child(2) {
+    margin-top:20px;
+  }
+  /*Les formulaires*/
+  div.wp-block-columns:nth-child(7) > div:nth-child(1) {
+	max-width: 50%;
+  }
+  div.wp-block-columns:nth-child(7) > div:nth-child(2) {
+	border-left: solid #ffffff 1.4px;
+	height: 470px;
+	max-width: 50%;
+  }
+  /*titre formulaires*/
+  h3.wp-block-heading.wp-elements-14f406a366bdff6762ee01e589ef3968 {
+	margin-left:60px; 
+  }
+  h3.wp-block-heading.wp-elements-706f15634f24dd56692c539d4e40d6dc {
+	margin-left: 290px;
+  }
+  /*Entrées formulaires*/
+  .uagb-block-b3d94c93.uagb-forms__outer-wrap {
+	padding-right: 290px;
 	margin-left: 30px;
-}
- /* PIED-DE-PAGE */
+  }
+  .uagb-block-ea02e675.uagb-forms__outer-wrap {
+	padding-left: 290px;
+  }
+  /*Boutons d'envoi formulaires obsolètes*/
+  .uagb-block-ea02e675 > form:nth-child(1) > div:nth-child(6) {
+	visibility:hidden;
+  }
+  .uagb-block-b3d94c93 > form:nth-child(1) > div:nth-child(6) > button:nth-child(1) {
+	visibility:hidden;
+  }
+  /*Bouton commander dernière page*/
+  .uagb-button__wrapper {
+	 margin-left: 30px;
+  }
+  /* PIED-DE-PAGE */
 
- #site-footer {
+  #site-footer {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 16px;
-}
-.footer-link {
- color:black;
-}
+ }
+  .footer-link {
+  color:black;
+ }
 .footer-link:hover {
 color: black;
 font-size: smaller !important;
